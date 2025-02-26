@@ -5,31 +5,31 @@ function settings() {
                 "path": "info-service",
                 "name": "Info service",
                 "openapi": {
-                    "url": "/api-doc/services/info-service/openapi.yml"
+                    "url": "/api-doc-example/api-doc/services/info-service/openapi.yml"
                 },
                 "asyncapi": {
-                    "url": "/api-doc/services/info-service/asyncapi.yml"
+                    "url": "/api-doc-example/api-doc/services/info-service/asyncapi.yml"
                 }
             },
             {
                 "path": "pet-service",
                 "name": "Pet service",
                 "openapi": {
-                    "url": "/api-doc/services/pet-service/openapi.yml"
+                    "url": "/api-doc-example/api-doc/services/pet-service/openapi.yml"
                 }
             },
             {
                 "path": "store-service",
                 "name": "Store service",
                 "openapi": {
-                    "url": "/api-doc/services/store-service/openapi.yml"
+                    "url": "/api-doc-example/api-doc/services/store-service/openapi.yml"
                 }
             },
             {
                 "path": "user-service",
                 "name": "User service",
                 "openapi": {
-                    "url": "/api-doc/services/user-service/openapi.yml"
+                    "url": "/api-doc-example/api-doc/services/user-service/openapi.yml"
                 }
             }
         ]
