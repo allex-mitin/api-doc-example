@@ -1,0 +1,18 @@
+asyncapi: 2.6.0
+info:
+  title: Petstore Kafka API
+  version: 1.0.1
+  description: |-
+    The Petstore kafka specification
+defaultContentType: application/json
+
+servers:
+  docker-local:
+    url: kafka://localhost:9092
+    description: Docker local kafka server
+    protocol: kafka
+
+channels:
+  savePetTopic:
+    $ref: './channels/SavePetChannel.yml'
+
